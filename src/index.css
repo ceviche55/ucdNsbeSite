@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+:root {
+  --primary-color: #edf2f8;
+  --secondary-color: #313bac;
+  --black-color: #030303;
+  --lightGray-color: #e4e4e4;
+  --gray-color: #10161f;
+  --brown-color: #46364a;
+  --white-color: #ffffff;
+
+  --header-font: "Noto Serif", serif;
+  --body-font: "Source Sans 3", sans-serif;
+
+  --foreground-color: #FAF3ED;
+  --background-color: #120B03;
+  --accent-color1: #3B2409;
+  --accent-color2: #8B6237;
+  --accent-color3: #D9B381;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
