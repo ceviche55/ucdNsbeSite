@@ -1,79 +1,91 @@
 import React from 'react';
 import './Executives.scss';
-import pic from '../../assets/about01.png'
+import zahraHead from '../../images/zahraHead.png';
+import yahyaHead from '../../images/yahyaHead.png';
+import anisHead from '../../images/anisHead.png';
+import kananiHead from '../../images/kananiHead.png';
+import tumuraHead from '../../images/tumuraHead.png';
+import abdullahiHead from '../../images/abdullahiHead.png';
+import khalidHead from '../../images/khalidHead.png';
+import ranaaHead from '../../images/ranaAHead.png';
+import ranasHead from '../../images/ranaSHead.png';
+import atbHead from '../../images/atbHead.png';
+import mariyemHead from '../../images/mariyemHead.png';
+import luqmanHead from '../../images/luqmanHead.png';
+import famoHead from '../../images/fatimaHead.png';
 
 const Executives = () => {
   const members = [
     {
       name: 'Zahra Abdullahi',
-      position: 'President',
-      image: '../../images/zahraHead.png',
+      position: 'Co-President',
+      image: zahraHead,
     },
     {
       name: 'Yahya Hamu',
-      position: 'Vice President',
-      image: '../../images/yahyaHead.png',
+      position: 'Co-President',
+      image: yahyaHead,
     },
     {
       name: 'Anis Benyousef',
-      position: 'Treasurer',
-      image: '../../images/zahraHead.png',
+      position: 'Presidential Advisor',
+      image: anisHead,
     },
     {
       name: 'Kanani Abera',
-      position: 'Treasurer',
-      image: '../../images/kananiHead.png',
+      position: 'Vice President',
+      image: kananiHead,
     },
     {
       name: 'Tumura Elamo',
       position: 'Treasurer',
-      image: '../../images/tumuraHead.png',
+      image: tumuraHead,
     },
     {
       name: 'Abdullahi Hassan',
-      position: 'Treasurer',
-      image: '../../images/abdullahiHead.png',
+      position: 'Secretary',
+      image: abdullahiHead,
     },
     {
       name: 'Khalid Hamu',
-      position: 'Treasurer',
-      image: '../../images/khalidHead.png',
+      position: 'Programs Chair',
+      image: khalidHead,
     },
     {
       name: 'Rana Abdellatif',
-      position: 'Treasurer',
-      image: '../../images/ranaAHead.png',
+      position: 'Professional Delegate',
+      image: ranaaHead,
     },
     {
       name: 'Rana Saidmaeruf',
-      position: 'Treasurer',
-      image: '../../images/ranaSHead.png',
+      position: 'Communications Chair',
+      image: ranasHead,
     },
     {
       name: 'Ahmed Roble',
-      position: 'Treasurer',
-      image: '../../images/atbHead.png',
+      position: 'Freshman Representative',
+      image: atbHead,
     },
     {
       name: 'Mariyem Tagir',
-      position: 'Treasurer',
-      image: '../../images/mariyemHead.png',
+      position: 'Conference Planning Chair',
+      image: mariyemHead,
     },
     {
       name: 'Luqman Abdurshid',
-      position: 'Treasurer',
-      image: '../../images/luqmanHead.png',
+      position: 'Pre-Collegiate Initiative Chair',
+      image: luqmanHead,
     },
     {
       name: 'Fatima Haile',
-      position: 'Treasurer',
-      image: '../../images/fatimaHead.png',
+      position: 'Academic Excellence Chair',
+      image: famoHead,
     },
   ];
 
   return (
     <div className="executive-members">
-      <h2>UC Denver NSBE Board Members</h2>
+      <h2>UCD NSBE Board Members</h2>
       <div className="members-container">
         {members.map((member, index) => (
           <div className="member-card" key={index}>
