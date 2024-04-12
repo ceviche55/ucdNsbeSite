@@ -1,41 +1,29 @@
 import React from 'react';
-import { Navbar, Header, Footer, Home, Join, Events, Resources, Sponsor, Executives, Collections } from './pages';
+import { Navbar, Home, What, SponsorPage, Executives, Footer } from './pages';
 import './App.scss'
 
 export const App = () => {
   let component = "/home"
-  switch (window.location.pathname){
-    case '/What%20is%20NSBE':
-      component = <Header/>
+  switch (window.location.pathname) {
+    case '/NSBE':
+      component = <What />
       break
-    case '/Becoming%20a%20Member':
-      component = <Join/>
+    case '/SPONSORSHIP':
+      component = <SponsorPage />
       break
-    case '/Member%20Resources':
-      component = <Resources/>
+    case '/BOARD':
+      component = <Executives />
       break
-    case '/Events':
-      component = <Events/>
-      break
-    case '/Sponsor%20NSBE':
-      component = <Sponsor/>
-      break
-    case '/Collections':
-      component = <Collections/>
-      break
-    case '/Excutive%20Members':
-    component = <Executives/>
-    break
     default:
-      component = <Home/>
+      component = <Home />
       break
-    
+
   }
   return (
     <>
-      <Navbar/>
+      <Navbar />
       {component}
-      <Footer/>  
+      <Footer />
     </>
   )
 }

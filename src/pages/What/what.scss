@@ -1,0 +1,42 @@
+:root {
+    --foreground-color: #FAF3ED;
+    --background-color: #120B03;
+    --accent-color1: #3B2409;
+    --accent-color2: #8B6237;
+    --accent-color3: #D9B381;
+}
+
+.whatPage {
+    padding-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    h1 {
+        font-size: 6rem;
+        text-transform: uppercase;
+    }
+
+    p {
+        font-size: 1.5rem;
+        margin: 2rem;
+        max-width: 60rem;
+    }
+
+    .topBlock {
+        padding: 2rem;
+    }
+
+    .bottomBlock {
+        background-color: var(--accent-color2);
+        color: var(--foreground-color);
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+}

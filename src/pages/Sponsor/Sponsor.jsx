@@ -6,7 +6,6 @@ const Sponsor = () => {
     <div className="sponsor-page">
       <h1 className="sponsor-title">Become a Sponsor of NSBE</h1>
       <p className="sponsor-description">NSBE is dedicated to increasing the number of culturally responsible Black engineers who excel academically, succeed professionally, and positively impact the community. We couldn't do it without the support of our sponsors. </p>
-
       <div className="sponsor-levels">
         <div className="sponsor-level">
           <h2 className="sponsor-level-title">Platinum Sponsor</h2>
