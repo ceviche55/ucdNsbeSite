@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/ucdNsbeSite/static/css/main.305b4482.css",
+    "main.js": "/ucdNsbeSite/static/js/main.9af3b657.js",
+    "static/media/nsbeBoardImgOriginal.jpg": "/ucdNsbeSite/static/media/nsbeBoardImgOriginal.e52c6370c16099006593.jpg",
+    "static/media/locEvent2.png": "/ucdNsbeSite/static/media/locEvent2.deef5ae5db9b3ba29850.png",
+    "static/media/locEvent3.png": "/ucdNsbeSite/static/media/locEvent3.e41f1e6c8c87ed2a15ec.png",
+    "static/media/locEvent1.png": "/ucdNsbeSite/static/media/locEvent1.ba3f8775e4f61b70c37f.png",
+    "static/media/anisHead.png": "/ucdNsbeSite/static/media/anisHead.471f5bb3bd0f79ebae5c.png",
+    "static/media/natCon2.jpg": "/ucdNsbeSite/static/media/natCon2.e87e1131e96a2e7166a1.jpg",
+    "static/media/natCon1.jpg": "/ucdNsbeSite/static/media/natCon1.075000d14e158e443fdb.jpg",
+    "static/media/luqmanHead.png": "/ucdNsbeSite/static/media/luqmanHead.2e385f6bad2fc68b711f.png",
+    "static/media/kananiHead.png": "/ucdNsbeSite/static/media/kananiHead.854f7333b06a02ce3a33.png",
+    "static/media/abdullahiHead.png": "/ucdNsbeSite/static/media/abdullahiHead.4ea7fb52d94db4bc56d3.png",
+    "static/media/yahyaHead.png": "/ucdNsbeSite/static/media/yahyaHead.edea4067a5874834c85b.png",
+    "static/media/atbHead.png": "/ucdNsbeSite/static/media/atbHead.98dc31d5ab02bbcd3f6c.png",
+    "static/media/ranaAHead.png": "/ucdNsbeSite/static/media/ranaAHead.79ac8f031a405566a46c.png",
+    "static/media/khalidHead.png": "/ucdNsbeSite/static/media/khalidHead.b2b81ab0d8d50c5779b1.png",
+    "static/media/ranaSHead.png": "/ucdNsbeSite/static/media/ranaSHead.2382a3450bfda6f18dc2.png",
+    "static/media/fatimaHead.png": "/ucdNsbeSite/static/media/fatimaHead.ca23b77845e563298bdb.png",
+    "static/media/logo.png": "/ucdNsbeSite/static/media/logo.eaff96a185b17d64a242.png",
+    "static/media/tumuraHead.png": "/ucdNsbeSite/static/media/tumuraHead.db9a9435dbbc073353ad.png",
+    "static/media/zahraHead.png": "/ucdNsbeSite/static/media/zahraHead.dbf24deecc35015716d1.png",
+    "static/media/mariyemHead.png": "/ucdNsbeSite/static/media/mariyemHead.0e1f1e4fd4a0015b4bc5.png",
+    "static/media/natCon3.jpg": "/ucdNsbeSite/static/media/natCon3.3796d54627845d77737b.jpg",
+    "index.html": "/ucdNsbeSite/index.html",
+    "main.305b4482.css.map": "/ucdNsbeSite/static/css/main.305b4482.css.map",
+    "main.9af3b657.js.map": "/ucdNsbeSite/static/js/main.9af3b657.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.305b4482.css",
+    "static/js/main.9af3b657.js"
+  ]
+}
