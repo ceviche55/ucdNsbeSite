@@ -1,23 +1,22 @@
-import React from 'react';
-import { Navbar, Home, What, SponsorPage, Executives, Footer } from './pages';
-import './App.scss'
+import React from "react";
+import { Navbar, Home, What, SponsorPage, Executives, Footer } from "./pages";
+import "./App.scss";
 
 export const App = () => {
-  let component = "/home"
+  let component = "/home";
   switch (window.location.pathname) {
-    case '/NSBE':
-      component = <What />
-      break
-    case '/SPONSORSHIP':
-      component = <SponsorPage />
-      break
-    case '/BOARD':
-      component = <Executives />
-      break
+    case "/NSBE":
+      component = <What />;
+      break;
+    case "/SPONSORSHIP":
+      component = <SponsorPage />;
+      break;
+    case "/BOARD":
+      component = <Executives />;
+      break;
     default:
-      component = <Home />
-      break
-
+      component = <Home />;
+      break;
   }
   return (
     <>
@@ -25,6 +24,6 @@ export const App = () => {
       {component}
       <Footer />
     </>
-  )
-}
-export default App
+  );
+};
+export default App;
